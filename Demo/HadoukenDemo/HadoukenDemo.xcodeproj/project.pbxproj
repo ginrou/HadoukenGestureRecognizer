@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547A6C9018F97E8700141E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A6C8F18F97E8700141E8E /* Foundation.framework */; };
+		547A6C9218F97E8700141E8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A6C9118F97E8700141E8E /* CoreGraphics.framework */; };
+		547A6C9418F97E8700141E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A6C9318F97E8700141E8E /* UIKit.framework */; };
+		547A6C9A18F97E8700141E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 547A6C9818F97E8700141E8E /* InfoPlist.strings */; };
+		547A6C9C18F97E8700141E8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 547A6C9B18F97E8700141E8E /* main.m */; };
+		547A6CA018F97E8700141E8E /* TKDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 547A6C9F18F97E8700141E8E /* TKDAppDelegate.m */; };
+		547A6CA318F97E8700141E8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547A6CA118F97E8700141E8E /* Main.storyboard */; };
+		547A6CA618F97E8700141E8E /* TKDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547A6CA518F97E8700141E8E /* TKDViewController.m */; };
+		547A6CA818F97E8700141E8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547A6CA718F97E8700141E8E /* Images.xcassets */; };
+		547A6CAF18F97E8700141E8E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A6CAE18F97E8700141E8E /* XCTest.framework */; };
+		547A6CB018F97E8700141E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A6C8F18F97E8700141E8E /* Foundation.framework */; };
+		547A6CB118F97E8700141E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A6C9318F97E8700141E8E /* UIKit.framework */; };
+		547A6CB918F97E8700141E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 547A6CB718F97E8700141E8E /* InfoPlist.strings */; };
+		547A6CBB18F97E8700141E8E /* HadoukenDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547A6CBA18F97E8700141E8E /* HadoukenDemoTests.m */; };
+		7344062980AB49EA9284DA16 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF27810699F4591B7180BD3 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		547A6CB218F97E8700141E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 547A6C8418F97E8700141E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547A6C8B18F97E8700141E8E;
+			remoteInfo = HadoukenDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		547A6C8C18F97E8700141E8E /* HadoukenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HadoukenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		547A6C8F18F97E8700141E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		547A6C9118F97E8700141E8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		547A6C9318F97E8700141E8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		547A6C9718F97E8700141E8E /* HadoukenDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HadoukenDemo-Info.plist"; sourceTree = "<group>"; };
+		547A6C9918F97E8700141E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		547A6C9B18F97E8700141E8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		547A6C9D18F97E8700141E8E /* HadoukenDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HadoukenDemo-Prefix.pch"; sourceTree = "<group>"; };
+		547A6C9E18F97E8700141E8E /* TKDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKDAppDelegate.h; sourceTree = "<group>"; };
+		547A6C9F18F97E8700141E8E /* TKDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKDAppDelegate.m; sourceTree = "<group>"; };
+		547A6CA218F97E8700141E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547A6CA418F97E8700141E8E /* TKDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKDViewController.h; sourceTree = "<group>"; };
+		547A6CA518F97E8700141E8E /* TKDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKDViewController.m; sourceTree = "<group>"; };
+		547A6CA718F97E8700141E8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		547A6CAD18F97E8700141E8E /* HadoukenDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HadoukenDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547A6CAE18F97E8700141E8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		547A6CB618F97E8700141E8E /* HadoukenDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HadoukenDemoTests-Info.plist"; sourceTree = "<group>"; };
+		547A6CB818F97E8700141E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		547A6CBA18F97E8700141E8E /* HadoukenDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HadoukenDemoTests.m; sourceTree = "<group>"; };
+		7FF27810699F4591B7180BD3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D7EFE003A14717992EA807 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547A6C8918F97E8700141E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A6C9218F97E8700141E8E /* CoreGraphics.framework in Frameworks */,
+				547A6C9418F97E8700141E8E /* UIKit.framework in Frameworks */,
+				547A6C9018F97E8700141E8E /* Foundation.framework in Frameworks */,
+				7344062980AB49EA9284DA16 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547A6CAA18F97E8700141E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A6CAF18F97E8700141E8E /* XCTest.framework in Frameworks */,
+				547A6CB118F97E8700141E8E /* UIKit.framework in Frameworks */,
+				547A6CB018F97E8700141E8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547A6C8318F97E8700141E8E = {
+			isa = PBXGroup;
+			children = (
+				547A6C9518F97E8700141E8E /* HadoukenDemo */,
+				547A6CB418F97E8700141E8E /* HadoukenDemoTests */,
+				547A6C8E18F97E8700141E8E /* Frameworks */,
+				547A6C8D18F97E8700141E8E /* Products */,
+				B2D7EFE003A14717992EA807 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		547A6C8D18F97E8700141E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547A6C8C18F97E8700141E8E /* HadoukenDemo.app */,
+				547A6CAD18F97E8700141E8E /* HadoukenDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547A6C8E18F97E8700141E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				547A6C8F18F97E8700141E8E /* Foundation.framework */,
+				547A6C9118F97E8700141E8E /* CoreGraphics.framework */,
+				547A6C9318F97E8700141E8E /* UIKit.framework */,
+				547A6CAE18F97E8700141E8E /* XCTest.framework */,
+				7FF27810699F4591B7180BD3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		547A6C9518F97E8700141E8E /* HadoukenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				547A6C9E18F97E8700141E8E /* TKDAppDelegate.h */,
+				547A6C9F18F97E8700141E8E /* TKDAppDelegate.m */,
+				547A6CA118F97E8700141E8E /* Main.storyboard */,
+				547A6CA418F97E8700141E8E /* TKDViewController.h */,
+				547A6CA518F97E8700141E8E /* TKDViewController.m */,
+				547A6CA718F97E8700141E8E /* Images.xcassets */,
+				547A6C9618F97E8700141E8E /* Supporting Files */,
+			);
+			path = HadoukenDemo;
+			sourceTree = "<group>";
+		};
+		547A6C9618F97E8700141E8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				547A6C9718F97E8700141E8E /* HadoukenDemo-Info.plist */,
+				547A6C9818F97E8700141E8E /* InfoPlist.strings */,
+				547A6C9B18F97E8700141E8E /* main.m */,
+				547A6C9D18F97E8700141E8E /* HadoukenDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		547A6CB418F97E8700141E8E /* HadoukenDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				547A6CBA18F97E8700141E8E /* HadoukenDemoTests.m */,
+				547A6CB518F97E8700141E8E /* Supporting Files */,
+			);
+			path = HadoukenDemoTests;
+			sourceTree = "<group>";
+		};
+		547A6CB518F97E8700141E8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				547A6CB618F97E8700141E8E /* HadoukenDemoTests-Info.plist */,
+				547A6CB718F97E8700141E8E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547A6C8B18F97E8700141E8E /* HadoukenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547A6CBE18F97E8700141E8E /* Build configuration list for PBXNativeTarget "HadoukenDemo" */;
+			buildPhases = (
+				8EFFBE4D261A434B8019910A /* Check Pods Manifest.lock */,
+				547A6C8818F97E8700141E8E /* Sources */,
+				547A6C8918F97E8700141E8E /* Frameworks */,
+				547A6C8A18F97E8700141E8E /* Resources */,
+				9E6A55E477504E118776F391 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HadoukenDemo;
+			productName = HadoukenDemo;
+			productReference = 547A6C8C18F97E8700141E8E /* HadoukenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		547A6CAC18F97E8700141E8E /* HadoukenDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547A6CC118F97E8700141E8E /* Build configuration list for PBXNativeTarget "HadoukenDemoTests" */;
+			buildPhases = (
+				547A6CA918F97E8700141E8E /* Sources */,
+				547A6CAA18F97E8700141E8E /* Frameworks */,
+				547A6CAB18F97E8700141E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547A6CB318F97E8700141E8E /* PBXTargetDependency */,
+			);
+			name = HadoukenDemoTests;
+			productName = HadoukenDemoTests;
+			productReference = 547A6CAD18F97E8700141E8E /* HadoukenDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		547A6C8418F97E8700141E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TKD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yuichi Takeda";
+				TargetAttributes = {
+					547A6CAC18F97E8700141E8E = {
+						TestTargetID = 547A6C8B18F97E8700141E8E;
+					};
+				};
+			};
+			buildConfigurationList = 547A6C8718F97E8700141E8E /* Build configuration list for PBXProject "HadoukenDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 547A6C8318F97E8700141E8E;
+			productRefGroup = 547A6C8D18F97E8700141E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547A6C8B18F97E8700141E8E /* HadoukenDemo */,
+				547A6CAC18F97E8700141E8E /* HadoukenDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547A6C8A18F97E8700141E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A6CA818F97E8700141E8E /* Images.xcassets in Resources */,
+				547A6C9A18F97E8700141E8E /* InfoPlist.strings in Resources */,
+				547A6CA318F97E8700141E8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547A6CAB18F97E8700141E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A6CB918F97E8700141E8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EFFBE4D261A434B8019910A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6A55E477504E118776F391 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547A6C8818F97E8700141E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A6CA018F97E8700141E8E /* TKDAppDelegate.m in Sources */,
+				547A6C9C18F97E8700141E8E /* main.m in Sources */,
+				547A6CA618F97E8700141E8E /* TKDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547A6CA918F97E8700141E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547A6CBB18F97E8700141E8E /* HadoukenDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		547A6CB318F97E8700141E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547A6C8B18F97E8700141E8E /* HadoukenDemo */;
+			targetProxy = 547A6CB218F97E8700141E8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		547A6C9818F97E8700141E8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547A6C9918F97E8700141E8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		547A6CA118F97E8700141E8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547A6CA218F97E8700141E8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547A6CB718F97E8700141E8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547A6CB818F97E8700141E8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547A6CBC18F97E8700141E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		547A6CBD18F97E8700141E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547A6CBF18F97E8700141E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D7EFE003A14717992EA807 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HadoukenDemo/HadoukenDemo-Prefix.pch";
+				INFOPLIST_FILE = "HadoukenDemo/HadoukenDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		547A6CC018F97E8700141E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D7EFE003A14717992EA807 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HadoukenDemo/HadoukenDemo-Prefix.pch";
+				INFOPLIST_FILE = "HadoukenDemo/HadoukenDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		547A6CC218F97E8700141E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HadoukenDemo.app/HadoukenDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HadoukenDemo/HadoukenDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HadoukenDemoTests/HadoukenDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		547A6CC318F97E8700141E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HadoukenDemo.app/HadoukenDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HadoukenDemo/HadoukenDemo-Prefix.pch";
+				INFOPLIST_FILE = "HadoukenDemoTests/HadoukenDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547A6C8718F97E8700141E8E /* Build configuration list for PBXProject "HadoukenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547A6CBC18F97E8700141E8E /* Debug */,
+				547A6CBD18F97E8700141E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547A6CBE18F97E8700141E8E /* Build configuration list for PBXNativeTarget "HadoukenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547A6CBF18F97E8700141E8E /* Debug */,
+				547A6CC018F97E8700141E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547A6CC118F97E8700141E8E /* Build configuration list for PBXNativeTarget "HadoukenDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547A6CC218F97E8700141E8E /* Debug */,
+				547A6CC318F97E8700141E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 547A6C8418F97E8700141E8E /* Project object */;
+}

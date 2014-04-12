@@ -1,0 +1,14 @@
+PODS:
+  - HadoukenGestureRecognizer (0.0.1)
+
+DEPENDENCIES:
+  - HadoukenGestureRecognizer (from `../../HadoukenGestureRecognizer.podspec`)
+
+EXTERNAL SOURCES:
+  HadoukenGestureRecognizer:
+    :path: ../../HadoukenGestureRecognizer.podspec
+
+SPEC CHECKSUMS:
+  HadoukenGestureRecognizer: bf44d920a5f79bbca2c25581f39b5b34230d397a
+
+COCOAPODS: 0.29.0
