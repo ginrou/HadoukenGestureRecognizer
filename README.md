@@ -3,9 +3,13 @@ HadoukenGestureRecognizer
 
 Hold your iPhone and do action of "Hadouken", then your action is recognized.
 
+![flow](https://raw.githubusercontent.com/ginrou/HadoukenGestureRecognizer/master/Resources/flow.png)
+
 **Notice**
 "Hadouken" action meens physical action, moving your body with your iPhone, and does not meen to enter "↓➘→ + P" :)
 
+Detail and my motivation is given in this slide
+[slideshare](http://www.slideshare.net/ginrou799/app-dojo20140327)
 
 ### How to use
 
